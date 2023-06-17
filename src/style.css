@@ -21,7 +21,7 @@ p{
   color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 720px) {
   .hide {
     display: none !important;
   }
@@ -197,6 +197,14 @@ p{
 
   .left{
     gap: 5.85vw !important;
+  }
+
+  .active .line:nth-child(1) {
+    transform: translateY(1.5vw) rotate(135deg) !important;
+  }
+
+  .active .line:nth-child(3){
+    transform: translateY(-1.5vw) rotate(-135deg) !important;
   }
 }
 

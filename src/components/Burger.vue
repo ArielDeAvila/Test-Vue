@@ -46,7 +46,7 @@ export default {
 }
 
 .active .line:nth-child(1){
-    transform: translateY(1.5vw) 
+    transform: translateY(0.4vw) 
     rotate(135deg); 
 }
 
@@ -55,6 +55,6 @@ export default {
 }
 
 .active .line:nth-child(3){
-    transform: translateY(-1.5vw) rotate(-135deg);
+    transform: translateY(-0.5vw) rotate(-135deg);
 }
 </style>
