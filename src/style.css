@@ -1,0 +1,202 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  
+  --background-charts: #2F363D;
+  --background-green: #13B497;
+  --background-black: #24292E;
+  --background-gray: rgb(47, 54, 61);
+  --background-content: #272E35;
+
+  --bar-color: #13B497;
+  --fill-size: 82.1%;
+
+}
+
+body{
+  margin: 0;
+}
+
+p{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 915px) {
+  .hide {
+    display: none !important;
+  }
+
+  .profile {
+    width: 16vw !important;
+    height: 8.45vw !important;
+
+    border-radius: 2.55vw !important;
+    padding-right: 3.2vw !important;
+    overflow: hidden !important;
+
+    justify-content: space-between !important;
+  }
+
+  .profile img,
+  .profile .photo {
+    height: 8.45vw !important;
+    width: 8.45vw !important;
+    border-radius: 2.55vw !important;
+  }
+
+  .content {
+    grid-template-columns: auto !important;
+    row-gap: 5.85vw !important;
+    padding: 5.34vw !important;
+  }
+
+  .content-chart-percent {
+    width: unset !important;
+    border-radius: 3.82vw !important;
+    padding: 3.82vw !important;
+  }
+
+  .content-chart-percent .title h2 {
+    font-size: 4.28vw !important;
+    margin-bottom: 0 !important;
+  }
+
+  .content-chart-percent .title p {
+    font-size: 3.20vw !important;
+  }
+
+  .triangle {
+    border-top: 1.41vw solid #D3D6E4 !important;
+    border-right: 1.41vw solid transparent !important;
+    border-left: 1.41vw solid transparent !important;
+  }
+
+  .day p {
+    margin: 0 !important;
+    font-size: 2.5vw !important;
+  }
+
+  .group-charts {
+    grid-template-columns: auto !important;
+    row-gap: 5.85vw !important;
+  }
+
+  .chart-content {
+    justify-content: center !important;
+  }
+
+  .pie-chart {
+    width: 70vw !important;
+  }
+
+  .content-charts {
+    width: unset !important;
+    height: 32.04vw !important;
+    padding: 4.83vw 7.9vw 5.6vw 6.36vw !important;
+    border-radius: 3.82vw !important;
+  }
+
+  .content-charts h2 {
+    font-size: 4.26vw !important;
+  }
+
+  .content-charts p {
+    font-size: 3.2vw !important;
+  }
+
+  .progress-bar {
+    height: 2.17vw !important;
+  }
+
+  .wave {
+    height: 47vw !important;
+  }
+
+  .content-pie-chart {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+  }
+
+  .pie {
+    display: flex !important;
+  }
+
+  .img-pie {
+    width: 31.47vw !important;
+    height: unset !important;
+  }
+
+  .gallery-title {
+    text-align: center !important;
+    font-size: 4.28vw !important;
+  }
+
+  .carrousel {
+    width: 89.32vw !important;
+    height: 51.03vw !important;
+    border-radius: 3.82vw !important;
+  }
+
+  .img-carrousel {
+    width: 89.32vw !important;
+    height: 51.03vw !important;
+  }
+
+  .carrousel p {
+    font-size: 2.5vw !important;
+    bottom: 1.48vw !important;
+  }
+
+  .nav-bar {
+    padding: 3.31vw 5.77vw 0.56vw 4.29vw !important;
+    height: 8.45vw !important;
+    justify-content: space-between !important;
+  }
+
+  .burger {
+    width: 5.62vw !important;
+    height: 4.62vw !important;
+  }
+
+  .line {
+    height: 2px !important;
+  }
+
+  .logo {
+    height: 8.45vw !important;
+  }
+
+  .notification {
+    width: 8.45vw !important;
+    height: 8.45vw !important;
+
+    border-radius: 2.55vw !important;
+  }
+
+  .options {
+    gap: 4.23vw !important;
+  }
+
+  .notification img {
+    height: 4.45vw !important;
+    width: 4.45vw !important;
+  }
+
+  .newNotification::before {
+    width: 2.65vw !important;
+    height: 2.65vw !important;
+
+    border-radius: 2.65vw !important;
+  }
+
+  .navigation {
+    gap: 3.5vw !important;
+  }
+
+  .left{
+    gap: 5.85vw !important;
+  }
+}
+
