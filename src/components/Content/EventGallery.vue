@@ -101,7 +101,7 @@ h1{
     text-align: center;
     background-color: rgba(47, 54, 61, 0.7);
     width: 100%;
-    padding: 3.98vh 0;
+    padding: 3.5vh 0;
     margin: 0;
     position: absolute;
     bottom: 0;
